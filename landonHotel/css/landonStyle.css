@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #444444;
+}
+/* Start of index.html.
+This part applies to all pages */
+.wrapper{
+	width: 960px;
+	margin: 0px auto;
+	box-shadow: 10px 10px 10px #000000;
+	background-color: #ffffff;
+}
+header{
+	text-align: center;
+}
+nav{
+	padding: 10px 0px;
+}
+nav a{
+	margin: 5px 20px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #6a6a6a;
+}
+nav a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+footer{
+	padding: 15px 10px;
+	background-color: #602e8b;
+	color: white;
+}
+h1{
+	color: #602E8B;
+}
+h2{
+	color: #602E8B;
+}
+hr{
+	clear: both;
+	width: 900px;
+}
+footer{
+	clear: both;
+}
+/* index.html specific */
+
+.callUs{
+	text-align: center;
+}
+#index hr{
+	margin-left: 0px;
+	width: 940px;
+}
+.heading{
+	font-size: 36px;
+	padding-left: 10px;
+}
+.h3, .paragraph{
+	width: 500px;
+	float: left;
+	padding-left: 10px;	
+}
+.h3{
+	margin-left: 20px;
+}
+.artimg{
+	float: right;
+	margin-right: 100px;
+}
+#lastimg{
+	padding-bottom: 40px;
+}
+.testimonial{
+	clear: both;
+}
+
+/*End of index.html */
+
+/* roomService.html starts here */
+.rsback{
+	background-image: url(../images/table-setting_485913447.jpeg);
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+#rsHeading{
+	margin-left: 50px;
+	font-size: 36px;
+}
+.intro{
+	width: 480px;
+	margin-left: 50px;
+}
+.ul{
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.ul li a{
+	text-decoration: none;
+	color: #5A618D;
+	font-family: times;
+	font-size: 20px;
+}
+.restaurant{
+	float: right;
+	margin-right: 80px; 
+}
+.pform{
+	clear: both;
+	width: 480px;
+	margin-left: 50px;
+}
+#rsform{
+	margin-left: 50px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#rsform p{
+	width: 340px;
+	text-align: right;
+	margin-left: 7px;
+}
+#restaurants{
+	border-radius: 10px;
+	height: 20px;
+	background-color: white;
+	width: 170px;
+	margin-left: 3px;
+}
+.input{
+	float: right;
+	border-radius: 10px;
+}
+.input:hover{
+	background-color: rgba(140, 140, 140, 0.1);
+}
+.submit{
+	margin-left: 174px;
+	border-radius: 10px;
+	width: 175px;
+	height: 20px;
+	background-color: white;
+}
+.submit:hover{
+	background-color: rgba(140, 140, 140, 0.9);
+	color: white;
+}
+
+/* End roomService.html */
+
+/* Begin specials.html */
+
+.specialsh3{
+	margin-left: 30px;
+}
+.specialsh5{
+	margin-left: 10px;
+	font-family: times;
+	font-size: 16px;
+}
+.specialsp{
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+/* End specials.html */
+
+/* Begin reservations.html */
+#reservationform{
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 430px;
+}
+#reservationform p{
+	width: 270px;
+	text-align: left;
+	margin-left: 7px;
+}
+#reservationform .input{
+	margin-left: 0px;
+}
+.ressubmit{
+	margin-left: 100px;
+	height: 25px;
+	width: 180px;
+	border-radius: 10px;
+	background-color: white;
+}
+.ressubmit:hover{
+	background-color: rgba(140, 140, 140, 0.9);
+	color: white;
+}
+#reservationform legend{
+	background-color: rgba(140, 140, 140, 0.2);
+	border-radius: 10px;
+	padding: 10px;
+}
+/* End reservations.html */
+
+/* Begin meetings.html */
+#meetings h1{
+	margin-left: 10px;
+}
+#meetings h3{
+	margin-left: 20px;
+	font-family: times;
+	font-size: 16px;
+}
+#meetings ul{
+	font-size: 20px;
+	margin-left: 20px;
+	font-family: times;
+}
+#meetings p{
+	width: 550px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+#meetings article{
+	height: 200px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#meetings img{
+	float: right;
+	margin-right: 80px;
+	margin-top: 30px;
+}
+#meetings hr{
+	width: 600px;
+	margin-left: 0px;
+}
+
+/* End meetings.html */
+
+/* Begin news.html */
+
+#news article{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#news h2{
+	color: #461F68;
+}
+
+/* End news.html */
+
+/* Begin contact.html */
+
+/* End contact.html */
